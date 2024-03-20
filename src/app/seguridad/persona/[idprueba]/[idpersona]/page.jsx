@@ -3,7 +3,7 @@ import React from 'react'
 import { RadioGroup, Radio, Button } from "@nextui-org/react";
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-function page({ params }) {
+function Page({ params }) {
   const router = useRouter();
 
   return (
@@ -44,4 +44,4 @@ function page({ params }) {
   )
 }
 
-export default page
+export default Page

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import React from 'react'
 
-function page({params}) {
+function Page({params}) {
     const router = useRouter();
     return (
         <div className='lg:w-full w-[90%] h-full relative lg:mx-0 mx-[5%] '>
@@ -64,4 +64,4 @@ function page({params}) {
     )
 }
 
-export default page
+export default Page

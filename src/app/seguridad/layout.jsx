@@ -2,7 +2,7 @@ import Footer from '@/components/footer'
 import Image from 'next/image'
 import React from 'react'
 
-function layout({ children }) {
+function Layout({ children }) {
     return (
         <>
             <div className="flex  w-full h-full items-center  ">
@@ -35,4 +35,4 @@ function layout({ children }) {
     )
 }
 
-export default layout
+export default Layout
