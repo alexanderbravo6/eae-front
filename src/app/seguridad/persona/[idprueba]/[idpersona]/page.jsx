@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 function page({ params }) {
   const router = useRouter();
+
   return (
     <>
       <RadioGroup
@@ -30,7 +31,7 @@ function page({ params }) {
 
         <Button
           onPress={() => {
-            router.push(`../../reglas/1/2`)
+            router.push(`../../../evaluacion/reglas/1/2`)
           }}
           className='bg-[#04C8C8] px-8 ' color="primary">
           Validar
